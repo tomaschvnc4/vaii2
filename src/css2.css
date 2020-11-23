@@ -1,0 +1,62 @@
+.paper {
+  margin: auto;
+  width: 300px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+@media (min-width: 864px) {
+  .paper {
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .paper {
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+}
+
+.item {
+  padding: 5px;
+}
+
+/* .zamestnanci {
+  margin-top: 30px;
+  width: auto;
+} */
+.paper h2 {
+  text-align: center;
+}
+
+.zarovnanie {
+  position: absolute;
+  margin-top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  /* top: 50%; */
+  /* left: 50%;
+  transform: translate(-50%); */
+  /* transform: translate(-50%, -50%); */
+}
+
+.MyTable {
+  margin-top: 5%;
+  margin-bottom: 100px;
+  padding: 10px;
+  padding-bottom: 50px;
+  /* padding: 60px 20px 0 20px; */
+  min-width: 350px;
+  /* background-color: lawngreen; */
+  /* margin-left: -15px; */
+}
+
+/* .MyTable Paper {
+  min-width: 300px;
+} */
